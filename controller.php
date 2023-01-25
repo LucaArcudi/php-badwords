@@ -39,7 +39,7 @@
 
             <p>
                 <?php
-                if (str_contains($textContent, $userBadWord)) {
+                if (str_contains($textContent, strtolower($userBadWord)) || str_contains($textContent, ucfirst($userBadWord))) {
                     $textContent = str_ireplace($userBadWord, "***", $textContent);
                     echo $textContent;
                 } else {
