@@ -11,7 +11,7 @@
 <body>
     <main>
         <form action="./controller.php" method="GET">
-            <textarea name="content" rows="5" cols="100">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, lorem, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, lorem, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, lorem, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. VOlUPtas, lorem, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, lorem, voluptatum.
+            <textarea name="content" rows="5" cols="100">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, lorem, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, lorem, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, lorem, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. VOlUPtas, lorem, voluptatum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. voluptas, lorem, voluptatum.
             </textarea>
             <input type="text" name="badword">
             <button type="submit">INVIA</button>
