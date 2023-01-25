@@ -13,7 +13,7 @@
 
         <?php
         $textContent = $_GET["content"];
-        $userBadword = $_GET["badword"]
+        $userBadWord = $_GET["badword"];
         ?>
 
         <div>
@@ -39,8 +39,8 @@
 
             <p>
                 <?php
-                if (str_contains($textContent, $userBadword)) {
-                    $textContent = str_ireplace($userBadword, "***", $textContent);
+                if (str_contains($textContent, $userBadWord)) {
+                    $textContent = str_ireplace($userBadWord, "***", $textContent);
                     echo $textContent;
                 } else {
                     echo $textContent;
